@@ -4,7 +4,7 @@ import decimal
 from urllib import parse
 from urllib.parse import urlparse
 import grpc
-from proto import payment_pb2, payment_pb2_grpc
+import payment_pb2, payment_pb2_grpc
 
 
 def generate_payment_link(
